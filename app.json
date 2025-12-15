@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Secure",
+    "slug": "Secure",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+
+    "splash": {
+      "image": "./assets/shield.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000814"
+    },
+
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSAllowsArbitraryLoads": true
+      }
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000814"
+      },
+      "permissions": [
+        "INTERNET",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ],
+      "edgeToEdgeEnabled": true
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
